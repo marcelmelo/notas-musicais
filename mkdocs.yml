@@ -1,7 +1,16 @@
 site_name: Notas Musicas
-repo_url: https://github.com/McsToolsDigital/intranet-backend
-repo_name: NotasMusicas
+repo_url: https://github.com/marcelmelo/notas-musicais
+repo_name: marcelmelo/notas-musicais
+edit_uri: tree/main/docs
 
 theme:
   name: material
   language: pt-BR
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
