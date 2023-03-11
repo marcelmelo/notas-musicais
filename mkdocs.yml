@@ -1,0 +1,7 @@
+site_name: Notas Musicas
+repo_url: https://github.com/McsToolsDigital/intranet-backend
+repo_name: NotasMusicas
+
+theme:
+  name: material
+  language: pt-BR
