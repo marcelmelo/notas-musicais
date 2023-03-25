@@ -1,0 +1,14 @@
+
+mkdocs new .    
+mkdocs serve
+
+blue .
+blue --check .
+blue --check --diff .
+
+isort .
+isort --check .
+isort --check --diff .
+
+
+coverage html
