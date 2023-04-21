@@ -12,3 +12,6 @@ isort --check --diff .
 
 
 coverage html
+
+
+pytest --pdb #quando der um false "assert False", ele irá parar na linha para debugar
